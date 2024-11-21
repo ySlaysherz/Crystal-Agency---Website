@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+:root {
+    --black: rgb(14,14,15);
+    --azulescuro: rgb(2, 97, 177);
+    --azul: rgb(8, 141, 218);
+    --azulclaro: rgb(60, 187, 241);
+    --branco: rgb(255, 255, 255);
+}
+
+.Section_1_div {
+    background: linear-gradient(var(--azulclaro), var(--azulescuro));
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+.Card-BemVindo { 
+    background: var(--branco);
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    top: 5%;
+    left: 5%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.logotipo-bemvindo {
+    width: 200px;
+    height: 80px;
+    left: 5%;
+    top: 5%;
+    position: absolute;
+}
+.mulher-da-capa {
+    width: 512px;
+    height: 481px;
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+}
+.Card-BemVindo-Container {
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+}
+.Card-BemVindo-Titulo {
+    letter-spacing: 2px;
+    color: var(--azulescuro);
+    font-weight: 600;
+    transition-duration: 0.3s;
+    display: inline;
+}
+.Card-BemVindo-Titulo:hover {
+    color: var(--azul);
+}
+.Card-BemVindo-SubTitulo {
+    font-size: 18px;
+    font-weight: 600;
+}
+.Card-BemVindo-Texto {
+    color: gray;
+    font-weight: 600;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+.Card-BemVindo-Texto:hover {
+    color: var(--branco);
+    background: var(--azul);
+    border-radius: 10px;
+}
+.navbar {
+    position: absolute;
+    right: 2.5%;
+    top: 5%;
+}
+.list-itens {
+    list-style: none;
+}
+.list-item {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+}
+.itens {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 600;
+    transition-duration: 0.3s;
+}
+.itens:hover {
+    color: var(--azul);
+    cursor: pointer;
+}
+.botao-container {
+    position: absolute;
+    display: flex;
+}
+.Botao-FaleConosco {
+    border-radius: 20px;
+    border: 2px solid var(--azulescuro);
+    background: none;
+    padding: 5px;
+    color: var(--black);
+    width: 150px;
+    height: 100%;
+    font-size: 18px;
+    transition-duration: 0.3s;
+    
+}
+.Botao-FaleConosco:hover {
+    background: var(--azulescuro);
+    color: var(--branco);
+    box-shadow: 0px 0px 8px var(--azul);
+    cursor: pointer;
+}
+.Section_2_div {
+    width: 100%;
+    height: 100%;
+    background: var(--branco);
+    position: relative;
+}
+.Cards-Servicos {
+    background: var(--branco); 
+    position: absolute;
+    padding: 5%;
+    display: flex;
+}
+.Card {
+    border: 1px solid var(--azulescuro);
+}
